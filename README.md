@@ -1,59 +1,96 @@
+# Pitch – TCC
+
 Nosso TCC nasce de um problema real e urgente:
+
+## 🚨 Problema
 
 As falhas de comunicação no SUS e a subjetividade presente nos processos de triagem.
 
 Hoje, informações descentralizadas, ruídos na comunicação entre setores e critérios muitas vezes interpretativos comprometem a eficiência do atendimento e impactam diretamente a vida do paciente.
 
-Como devs , enxergamos essa dor como uma oportunidade de transformação. 
+Como devs, enxergamos essa dor como uma oportunidade de transformação.
 
-Nosso projeto propõe uma solução tecnológica que padroniza a triagem e possui uma pré-triagem, reduz a subjetividade por meio de critérios estruturados e melhora o fluxo de comunicação entre profissionais e unidades de atendimento.
+---
 
-Através de dados organizados, protocolos digitalizados e apoio à decisão, buscamos tornar o processo mais ágil, transparente e assertivo , contribuindo para um atendimento mais justo, eficiente e baseado em informação.
+## 💡 Proposta
+
+Nosso projeto propõe uma solução tecnológica que:
+
+- Padroniza a triagem  
+- Implementa uma **pré-triagem digital**  
+- Reduz a subjetividade por meio de critérios estruturados  
+- Melhora o fluxo de comunicação entre profissionais e unidades de atendimento  
+
+Além disso, o sistema integra **políticas e diretrizes do SUS**, informando:
+
+- Quais documentos e prescrições são aceitos  
+- O que o paciente precisa levar para cada tipo de exame  
+- Orientações prévias para realização de procedimentos  
+
+---
+
+## 🎯 Objetivo
+
+Através de:
+
+- Dados organizados  
+- Protocolos digitalizados  
+- Apoio à decisão  
+
+Buscamos tornar o processo mais ágil, transparente e assertivo, contribuindo para um atendimento mais justo, eficiente e baseado em informação.
 
 Nosso objetivo é usar tecnologia para fortalecer o SUS, otimizar recursos e colocar o paciente no centro da decisão.
 
-adicionar politicas (quais documentos e prescrições o SUS aceita e o que levar em cada exame)
+---
 
-🔴 Protocolo de Manchester
+# 📋 Protocolos de Triagem
 
-É o mais utilizado no Brasil, inclusive no SUS.
+## 🔴 Protocolo de Manchester
 
-Baseado em fluxogramas clínicos por queixa principal
+O mais utilizado no Brasil, inclusive no SUS.
 
-Utiliza discriminadores objetivos (dor intensa, alteração de consciência, sinais vitais, etc.)
+**Características:**
 
-Classifica o paciente por cores e tempo máximo de espera:
+- Baseado em fluxogramas clínicos por queixa principal  
+- Utiliza discriminadores objetivos (dor intensa, alteração de consciência, sinais vitais, etc.)  
+- Classificação por cores com tempo máximo de espera  
 
-Vermelho – atendimento imediato
+**Classificação:**
 
-Laranja – muito urgente
+- 🔴 Vermelho – atendimento imediato  
+- 🟠 Laranja – muito urgente  
+- 🟡 Amarelo – urgente  
+- 🟢 Verde – pouco urgente  
+- 🔵 Azul – não urgente  
 
-Amarelo – urgente
+👉 Funciona como um questionário guiado, onde cada resposta direciona o profissional para a classificação final.
 
-Verde – pouco urgente
+---
 
-Azul – não urgente
-
-👉 Ele funciona quase como um questionário guiado, onde cada resposta direciona o profissional para a classificação final.
-
-🟡 Protocolo de Acolhimento com Classificação de Risco
+## 🟡 Protocolo de Acolhimento com Classificação de Risco
 
 Diretriz do próprio SUS.
 
-Baseado na Política Nacional de Humanização
+**Baseado em:**
 
-Avalia risco, vulnerabilidade e gravidade
+- Política Nacional de Humanização  
 
-Pode variar entre municípios
+**Avalia:**
 
-Foca não só na queixa clínica, mas também no contexto do paciente
+- Risco  
+- Vulnerabilidade  
+- Gravidade  
 
-🟠 Emergency Severity Index (ESI)
+Pode variar entre municípios e considera não apenas a queixa clínica, mas também o contexto do paciente.
 
-Muito usado nos EUA.
+---
 
-Classifica de nível 1 a 5
+## 🟠 Emergency Severity Index (ESI)
 
-Combina gravidade + previsão de recursos necessários
+Muito utilizado nos Estados Unidos.
 
-Algoritmo estruturado de decisão
+**Características:**
+
+- Classificação de nível 1 a 5  
+- Combina gravidade + previsão de recursos necessários  
+- Utiliza algoritmo estruturado de decisão  
