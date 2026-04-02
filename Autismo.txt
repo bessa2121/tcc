@@ -1,0 +1,22 @@
+Plataforma de Aprendizado Personalizado com IA (Educação)
+🧠 Problema real
+
+Ensino tradicional:
+
+não se adapta ao aluno
+gera baixo aprendizado
+🚀 Solução
+
+Sistema que:
+
+adapta conteúdo ao nível do aluno
+identifica dificuldades
+sugere trilha personalizada
+🔥 Complexidade
+sistema de recomendação
+análise de desempenho
+tracking de progresso
+frontend interativo
+💥 Diferencial
+tipo “Netflix da educação”
+personalização real
