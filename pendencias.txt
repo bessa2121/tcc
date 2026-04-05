@@ -1,0 +1,9 @@
+- Adicionar bryan no jira e no confluence
+- Filtrar quais tipos de TEA
+- Melhorar pitch
+- Fazer reunião terça :
+
+- Organizar tarefas
+- Fluxo de projeto
+- Adicionar epics e storys
+- Organizar proximas sprints
