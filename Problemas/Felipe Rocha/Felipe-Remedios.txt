@@ -1,5 +1,0 @@
-PROBLEMA 1: Indivíduos que fazem uso de múltiplos medicamentos podem, por vezes, apresentar esquecimento em relação à administração de alguma medicação, em decorrência de uma rotina acelerada ou sobrecarregada de atividades.
-
-ESTADO DA PESQUISA:estou realizando pesquisas em artigos politicos para verificar a veracidade do tema.
-
-PROPOSTA DE INTERVENÇÃO: Desenvolvimento de um aplicativo cujas funções principais consistem em permitir o cadastro de novos medicamentos, com a definição da frequência de uso, da dosagem a ser administrada e da identificação do remédio, além de possibilitar a integração com os sistemas de alarme do dispositivo móvel.
