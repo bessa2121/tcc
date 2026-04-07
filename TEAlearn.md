@@ -166,9 +166,11 @@ O **NeuroLearn** contribui para:
 
 Atualmente, o Brasil registra cerca de **7 milhões de alunos neurodivergentes apenas na educação básica**, segundo dados do **Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP)**. No entanto, como apontam pesquisadores como **Anne Meyer**, a escola ainda se organiza em torno de um **“aluno médio” inexistente**, criando barreiras desnecessárias ao aprendizado.
 
+Esse cenário também aparece no ensino técnico. **Dados institucionais do Centro Paula Souza indicam que apenas cerca de 0,4% dos alunos das ETECs são identificados como pessoas com deficiência**, o que evidencia os desafios de **acesso, permanência e adaptação pedagógica nesse nível de ensino**.
+
 Alunos com **Transtorno do Espectro Autista (TEA) nível 1**, embora sejam alfabetizados e verbais, frequentemente enfrentam desafios cognitivos como a chamada **“coerência central fraca”**, termo cunhado pela pesquisadora **Uta Frith**, que os leva a focar em detalhes isolados e perder a compreensão do todo em textos longos ou complexos.
 
-Ao mesmo tempo, estudos de **Débora Regina de Paula Nunes** e **Carlo Schmidt** revelam uma lacuna importante no sistema educacional: muitos professores do ensino regular **não possuem formação específica nem recursos pedagógicos acessíveis** para adaptar conteúdos para esses estudantes.
+Ao mesmo tempo, estudos de **Débora Regina de Paula Nunes** e **Carlo Schmidt** revelam uma lacuna importante no sistema educacional: muitos professores do ensino regular **não possuem formação específica nem recursos pedagógicos acessíveis para adaptar conteúdos para esses estudantes**. Esse cenário também é observado nas ETECs: **pesquisas institucionais indicam que cerca de 60% dos profissionais escolares relatam necessidade de mais preparo e recursos para lidar com estudantes com autismo**.
 
 É para enfrentar esse desafio que desenvolvemos o **NeuroLearn**.
 
@@ -178,11 +180,11 @@ Na prática, o professor envia um material — como um **texto, slide ou PDF** �
 
 A plataforma reorganiza o conteúdo em **frases curtas, tópicos e etapas claras de aprendizagem**. Segundo a pesquisadora **Lídia de Almeida Correia**, esse tipo de estrutura funciona como um **“guia de leitura”**, que auxilia o estudante com autismo a **organizar o pensamento e compreender melhor o conteúdo**.
 
-Além de melhorar a compreensão do aluno, o **NeuroLearn** também apoia o professor, **automatizando tarefas repetitivas de adaptação de materiais** e permitindo que ele foque no acompanhamento pedagógico do estudante.
+Além de melhorar a compreensão do aluno, o **NeuroLearn também apoia o professor**, automatizando tarefas repetitivas de adaptação de materiais e permitindo que ele foque no acompanhamento pedagógico do estudante. Estudos realizados no contexto das **ETECs** indicam que o uso de ferramentas digitais de apoio pedagógico pode ajudar a combater a chamada **“exclusão velada”**, permitindo que estudantes com autismo participem ativamente das atividades escolares.
 
-Com base nas evidências científicas analisadas por nossa equipe, incluindo o desenvolvedor **Edilson Botto**, nossa solução tem potencial para **reduzir em até 40% os índices de recuperação escolar** entre alunos neurodivergentes e **diminuir em cerca de 25% a evasão escolar**.
+Com base nas evidências científicas analisadas por nossa equipe, incluindo o desenvolvedor **Edilson Botto**, nossa solução tem potencial para **reduzir em até 40% os índices de recuperação escolar entre alunos neurodivergentes e diminuir a evasão escolar**.
 
-Com o **NeuroLearn**, utilizamos a tecnologia para transformar o **Ensino Médio em um ambiente mais acessível, inclusivo e preparado para a diversidade de formas de aprender**.
+Com o **NeuroLearn**, utilizamos a tecnologia para transformar o **Ensino Médio — especialmente no contexto das ETECs do Centro Paula Souza — em um ambiente mais acessível, inclusivo e preparado para a diversidade de formas de aprender**.
 
 ---
 
