@@ -1,150 +1,242 @@
-# Portaria Digital — MVP
+# 🧠📚 NeuroLearn — Plataforma de Adaptação Didática com IA
 
-Sistema web de **controle de acesso para condomínios residenciais**, desenvolvido como Trabalho de Conclusão de Curso (TCC) na ETEC.  
-O projeto digitaliza o registro de visitantes na portaria, permitindo que moradores autorizem entradas em tempo real e síndicos consultem históricos.
-
----
-
-## 🚪 Problema
-
-A maioria dos condomínios ainda utiliza **cadernos físicos** para registrar visitantes, sem rastreabilidade digital.  
-Isso gera falhas graves de segurança:
-
-- Morador não sabe quem entrou
-- Síndico não tem relatórios
-- Registros podem ser perdidos ou adulterados
-
-> **68 milhões de brasileiros** vivem em condomínios — o mercado potencial é enorme.
+> **Inteligência Artificial aplicada à educação inclusiva para estudantes com TEA**
 
 ---
 
-## 🎯 Objetivo
+# 🎯 Visão Geral
 
-Construir um sistema web que permita:
+O **NeuroLearn** é uma plataforma que utiliza Inteligência Artificial para adaptar materiais didáticos tradicionais (PDFs, imagens, textos) em conteúdos mais acessíveis para alunos com Transtorno do Espectro Autista (TEA), especialmente no ensino médio.
 
-- Registro digital de visitantes com foto
-- Notificação em tempo real ao morador
-- Autorização ou recusa de entrada pelo sistema
-- Histórico consultável de acessos para o síndico
+A proposta é:
 
----
-
-## 👥 Perfis de Usuário
-
-- **Porteiro** → registra visitantes e saída
-- **Morador** → autoriza ou recusa entrada
-- **Síndico** → consulta histórico completo
+* Reduzir barreiras de compreensão
+* Ajudar professores a adaptar conteúdos rapidamente
+* Melhorar a experiência de aprendizagem de alunos neurodivergentes
 
 ---
 
-## 🛠️ Stack Tecnológica
+# 🧩 Problema
 
-- **Frontend:** React 18, React Router, Axios, SockJS + StompJS, Context API  
-- **Backend:** Spring Boot 3, Spring Security + JWT, WebSocket STOMP, Spring Data JPA, JavaMailSender  
-- **Banco:** MySQL 8 + Flyway migrations  
+Professores enfrentam dificuldades como:
 
----
+* Falta de tempo para adaptar conteúdos
+* Ausência de formação em educação inclusiva
+* Materiais complexos e pouco acessíveis
 
-## 📐 Escopo do MVP
+Alunos com TEA enfrentam:
 
-- Login com JWT  
-- Cadastro de moradores, unidades e porteiros  
-- Registro de visitantes com foto via webcam  
-- Notificação em tempo real ao morador (WebSocket)  
-- Autorização/recusa pelo morador  
-- Histórico consultável pelo síndico  
-
-> **Critério de sucesso:** ciclo completo funcionando de ponta a ponta.
+* Dificuldade com textos longos
+* Problemas com linguagem abstrata
+* Sobrecarga cognitiva
 
 ---
 
-## 🗂️ Banco de Dados
+# 💡 Solução
 
-Principais tabelas:
+O sistema:
 
-- `USUARIOS` (moradores, porteiros, síndico)  
-- `UNIDADES` (bloco, número, morador vinculado)  
-- `VISITANTES` (dados pessoais + foto)  
-- `REGISTROS_ACESSO` (entrada, saída, decisão)  
-- `CONSENTIMENTOS_LGPD` (prazo de retenção e consentimento explícito)
-
----
-
-## 🔌 API REST
-
-### Autenticação
-- `POST /auth/login` → retorna JWT  
-- `POST /auth/logout` → invalida token  
-
-### Usuários e Unidades
-- `GET /usuarios` → lista usuários (síndico)  
-- `POST /usuarios` → cria morador ou porteiro  
-- `GET /unidades` → lista unidades  
-- `POST /unidades` → cria unidade  
-
-### Visitantes
-- `POST /visitantes` → cria visitante + upload foto  
-- `GET /visitantes/{id}` → busca visitante  
-
-### Registros de Acesso
-- `POST /acessos` → registra entrada  
-- `PUT /acessos/{id}/autorizar` → morador autoriza  
-- `PUT /acessos/{id}/recusar` → morador recusa  
-- `PUT /acessos/{id}/saida` → porteiro registra saída  
-- `GET /acessos` → histórico com filtros (síndico)  
-- `GET /acessos/minha-unidade` → histórico do morador  
-- `GET /acessos/{id}` → detalhe de um registro  
+* Recebe materiais didáticos
+* Processa o conteúdo
+* Aplica IA para simplificação
+* Gera versões acessíveis
+* Permite edição pelo professor
+* Exporta conteúdo final
 
 ---
 
-## 📅 Roadmap (Sprints)
+# 🏗 Arquitetura do Sistema
 
-1. **Sprint 1 (Semanas 1-6):** autenticação, cadastros e banco  
-2. **Sprint 2 (Semanas 7-12):** registro de visitante e captura de foto  
-3. **Sprint 3 (Semanas 13-18):** WebSocket e decisão do morador  
-4. **Sprint 4 (Semanas 19-24):** histórico, ajustes e demo final  
-
----
-
-## 👨‍💻 Divisão do Time
-
-- **M1 (Back-end Tech Lead):** Spring Boot, Security, JWT  
-- **M2 (Back-end):** WebSocket, endpoints de acesso, upload de foto  
-- **M3 (Front-end Porteiro):** formulário, webcam, SockJS/StompJS  
-- **M4 (Front-end Morador/Síndico):** notificações, histórico, filtros  
-- **M5 (Banco + QA + Docs):** modelagem, migrations, documentação, demo  
+```mermaid
+flowchart TD
+    A[📥 Upload de Arquivo] --> B[📄 Extração de Texto]
+    B --> C[🧹 Limpeza e Organização]
+    C --> D[🧠 Divisão em Blocos]
+    D --> E[🤖 Processamento com IA]
+    E --> F[📝 Texto Adaptado]
+    E --> G[🧠 Mapa Mental]
+    F --> H[✏️ Edição pelo Professor]
+    G --> H
+    H --> I[📤 Exportação PDF]
+```
 
 ---
 
-## ⚖️ Conformidade LGPD
+# ⚙️ Stack Tecnológica
 
-- Consentimento explícito obrigatório  
-- Finalidade declarada: "imagem usada exclusivamente para controle de acesso"  
-- Prazo de retenção: 90 dias (`expira_em`)  
-- Direito à exclusão: `DELETE /visitantes/{id}` remove foto e dados pessoais  
+## 🔹 Backend
+
+* Java + Spring Boot
+* Spring Data JPA
+* Lombok
+
+## 🔹 Frontend
+
+* React (interface simples)
+* Axios
+
+## 🔹 Banco de Dados
+
+* MySQL (produção)
+* H2 (desenvolvimento)
+
+## 🔹 Processamento de Arquivos
+
+* Apache PDFBox (PDF)
+* Apache POI (DOCX)
+* Tesseract OCR (imagens)
+
+## 🔹 Inteligência Artificial
+
+* API externa (GPT ou similar)
 
 ---
 
-## ⚠️ Riscos e Mitigações
+# 🔄 Fluxo Completo do Sistema
 
-- **WebSocket instável na demo:** usar localhost + vídeo backup  
-- **Sprint 3 atrasar:** iniciar config WS no fim da Sprint 2  
-- **Câmera não funcionar:** testar ambiente antecipadamente  
-- **Escopo crescer:** só após ciclo completo funcional  
-- **Divisão desigual de trabalho:** contrato de interface na semana 1  
+```mermaid
+flowchart LR
+    A[Professor] --> B[Upload]
+    B --> C[Backend Spring]
+    C --> D[Extração de Texto]
+    D --> E[Limpeza]
+    E --> F[Chunking]
+    F --> G[IA API]
+    G --> H[Resposta Adaptada]
+    H --> I[Frontend]
+    I --> J[Edição]
+    J --> K[Exportação]
+```
 
 ---
 
-## 📽️ Pitch
+# 🎨 Pipeline de Processamento
 
-> *"68 milhões de brasileiros vivem em condomínios. A maioria confia sua segurança a um caderno de papel.  
-> Nossa solução digitaliza a portaria: o porteiro registra o visitante com foto, o morador autoriza em tempo real, e o síndico consulta o histórico completo.  
-> É a segurança que o condomínio já deveria ter — simples, acessível e sem custo de hardware especializado."*
+```mermaid
+flowchart TD
+    A[Entrada] --> B{Tipo}
+    B -->|PDF| C[PDFBox]
+    B -->|Imagem| D[OCR]
+    B -->|Texto| E[Direto]
+    C --> F[Texto Unificado]
+    D --> F
+    E --> F
+    F --> G[Limpeza]
+    G --> H[Divisão em Partes]
+    H --> I[IA]
+    I --> J[Saída Estruturada]
+```
 
 ---
 
-## 🚀 Status
+# 👨‍💻 Separação de Equipe (5 pessoas)
 
-- MVP em desenvolvimento  
-- Prazo total estimado: **6 meses**  
-- Entrega final: **demo ao vivo + vídeo backup**
+## 🧠 Backend (2 pessoas)
+
+Responsáveis por:
+
+* API (Spring Boot)
+* Integração com IA
+* Processamento de arquivos
+* Banco de dados
+
+---
+
+## 🎨 Frontend (2 pessoas)
+
+Responsáveis por:
+
+* Interface React
+* Upload de arquivos
+* Exibição de resultados
+* Editor de texto
+
+---
+
+## 🔬 IA + Integração (1 pessoa)
+
+Responsável por:
+
+* Criação de prompts
+* Testes de qualidade
+* Controle de respostas
+* Redução de alucinações
+
+---
+
+# 📅 Cronograma (Abril → Outubro)
+
+```mermaid
+gantt
+    title Cronograma NeuroLearn
+    dateFormat  YYYY-MM-DD
+    section Base
+    Setup do Projeto        :a1, 2026-04-09, 14d
+    Upload de Arquivos      :a2, after a1, 14d
+
+    section Processamento
+    Extração de Texto       :b1, after a2, 21d
+    Integração com IA       :b2, after b1, 21d
+
+    section Inteligência
+    Melhorias IA + Chunking :c1, after b2, 14d
+    Perfis de Usuário       :c2, after c1, 14d
+
+    section Funcionalidades
+    Mapa Mental             :d1, after c2, 14d
+    Editor                  :d2, after d1, 14d
+    Exportação              :d3, after d2, 14d
+
+    section Finalização
+    UI/UX                   :e1, after d3, 14d
+    Testes                  :e2, after e1, 14d
+    Ajustes Finais          :e3, after e2, 14d
+```
+
+---
+
+# 🧠 Estratégia de IA (Resumo)
+
+* Uso de API pronta (sem treinar modelo)
+* Prompt estruturado
+* Chunking (dividir texto)
+* Temperatura baixa
+* Professor no controle final
+
+---
+
+# 🚀 Diferenciais do Projeto
+
+* ✔ Adaptação automática com IA
+* ✔ Foco em TEA nível 1
+* ✔ Geração de mapa mental
+* ✔ Edição humana (professor)
+* ✔ Exportação em PDF
+* ✔ Pipeline estruturado (nível profissional)
+
+---
+
+# 🏁 Objetivo Final
+
+Criar uma plataforma funcional que:
+
+* Seja utilizável por professores reais
+* Reduza o tempo de adaptação de materiais
+* Melhore a compreensão de alunos com TEA
+* Demonstre aplicação prática de IA na educação
+
+---
+
+# 📌 Status do Projeto
+
+🚧 Em desenvolvimento
+📅 Prazo final: **20 de Outubro de 2026**
+🎯 Meta: MVP funcional até **Julho/Agosto**
+
+---
+
+# 💬 Observação Final
+
+> O foco não é apenas tecnologia, mas impacto educacional real.
+
+---
