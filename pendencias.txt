@@ -5,3 +5,9 @@ organizar github
 começar documentação
 diario de bordo
 coisas qualidade de software
+
+decidir entre monolito ou microsservico
+separar equipes
+separar metas 
+fazer uma visualização básica
+como vamos fazer
