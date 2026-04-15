@@ -1,13 +1,21 @@
 Reduzir em formatos menores, ser objetivo e direto ao ponto para não atrapalhar.
 Pareamentos de cores, usar exemplos do cotidiano
 
-- Flashcards são uma boa ideia? Focando em etapas, degrau por degrau até chegar no contexto
-completo
+- Flashcards são uma boa ideia
 - Sempre manter a rotina, padrões são muito bons
 - Tentar utilizar interesses próprios como porta de entrada para algum assunto na
 matéria a ser aprendida
 - Minimizar distrações, algo objetivo e prezar o foco 
 - Gamificar é uma boa ideia (trilhas de aprendizado)
+- Contar histórias é uma boa ideia para ensinar assuntos de alguma matéria
+- Tentar transformar a trilha gamificada em algum desses jogos ou usar como inspiração em alguma parte, etc {
+  UNO, 
+  JOGO DA MEMÓRIA,
+  QUEBRA-CABEÇA COLABORATIVO,
+  DIXIT (Você fornece pequenas histórias e o alunos tem que tentar acertar),
+  BINGO,
+  LINCE
+}
 
 TIPOGRRAFIA: a fonte a ser utilizada no material
 - Arial Sans-Serif
