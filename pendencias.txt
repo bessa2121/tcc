@@ -1,10 +1,10 @@
 separar cargos corretamente
 separar funções de cada cargo corretamente
 separar fluxo corretamente
-organizar github
-começar documentação
-diario de bordo
-coisas qualidade de software
+organizar github 1
+começar documentação 3
+diario de bordo 2
+coisas qualidade de software 4
 
 decidir entre monolito ou microsservico
 separar equipes
