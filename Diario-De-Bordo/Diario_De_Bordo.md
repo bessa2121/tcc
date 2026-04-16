@@ -213,6 +213,21 @@ Também foi definido que as **reuniões ocorrerão às terças e quintas**, gara
 
 ---
 
+# 📅 16/04 — Consolidação do Planejamento
+
+🧠 **Atividades do dia**
+
+O grupo organizou o github coletivo.
+Iniciou o processo de documentação do projeto.
+Definiu as funções e cargos individuais dos integrantes, juntamente com a separação por duplas para o desenvolvimento do projeto.
+Foram definidos os requisitos funcionais e não funcionais do projeto, além das regras de negócio.
+Especifiou-se a funcionalidade principal do projeto e foram definidas possíveis melhorias a longo prazo.
+---
+
+### 📦 Contribuição dos Integrantes
+A atuação foi da equipe foi focada na organização e estruturação do projeto de forma com que ficasse mais claro e objetivo a coomprensão por todos os membros do grupo.
+---
+
 ## ✍️ Observação
 
 Este diário de bordo registra as atividades iniciais realizadas pelo grupo durante o processo de **definição, pesquisa e planejamento do Trabalho de Conclusão de Curso**, documentando a evolução do projeto.
