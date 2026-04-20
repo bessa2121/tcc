@@ -1,3 +1,5 @@
+Plataforma educacional baseada em Inteligência Artificial para adaptação automática de conteúdos textuais do ensino médio, utilizando princípios do Desenho Universal para Aprendizagem e do modelo ADDIE, voltada a estudantes com TEA nível 1.
+
 🔄 📊 FLUXO GERAL DO SISTEMA + METODOLOGIA
 🧩 1. ANÁLISE (ADDIE)
 
