@@ -1,0 +1,25 @@
+Crie uma apresentação em PowerPoint com base na seguinte estrutura:
+
+Título da apresentação: CMMI e MPS.BR: Modelos de Qualidade de Software
+
+Alunos: Davi Tavares, Leonardo Buso, David Melquiades
+Disciplina: Qualidade e Testes de Software
+Professor: Márcio
+Data: 29/04/2026
+
+Estrutura dos slides:
+1. Capa – título, nomes dos alunos, disciplina, professor, data
+2. Introdução – O que são modelos de processo?
+3. CMMI – definição
+4. Níveis do CMMI – níveis de maturidade
+5. Áreas de Processo do CMMI – exemplos
+6. MPS.BR – definição
+7. Níveis do MPS.BR – níveis de maturidade
+8. Áreas de Processo do MPS.BR – exemplos
+9. Comparação – CMMI vs MPS.BR
+10. Vantagens – benefícios
+11. Exemplo prático – aplicação
+12. Conclusão – síntese final
+13. Referências – fontes utilizadas
+
+Estilo visual: acadêmico, claro e objetivo, com ícones e gráficos simples para ilustrar os conceitos.
